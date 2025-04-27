@@ -69,28 +69,29 @@ lr.predict([[1,80,1,9,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-![Screenshot 2025-03-28 123601](https://github.com/user-attachments/assets/800110c0-df4c-4271-bd92-d84d2022b4e3)
+### pf.head()
+![Screenshot 2025-04-27 103154](https://github.com/user-attachments/assets/2b22ebf7-6e48-4bde-aa8e-62fe2f70224e)
 
+### pf1.head()
 ![Screenshot 2025-03-28 123613](https://github.com/user-attachments/assets/06c61909-785e-4b2d-9ffe-cbd8bd3e33d8)
-
+### pf1.isnull().sum()
 ![Screenshot 2025-03-28 123622](https://github.com/user-attachments/assets/63b43a33-c8a2-416c-bc0b-3fd5b8e377b9)
-
+### pf1.duplicated().sum()
 ![Screenshot 2025-03-28 123635](https://github.com/user-attachments/assets/be43ef31-1dc7-4ecc-9798-f58dea38af50)
 
-
+### pf1
 ![Screenshot 2025-03-28 123733](https://github.com/user-attachments/assets/50cf020a-1aaf-43cf-beae-3641d03f9832)
-
+### Value of x
 ![Screenshot 2025-03-28 123747](https://github.com/user-attachments/assets/16248e05-b308-4a94-a8fb-811bac016623)
 
-
+### Value of y
 ![Screenshot 2025-03-28 123801](https://github.com/user-attachments/assets/9d393d35-b6dd-423e-801a-9d671f836402)
 
-
+### 
 ![Screenshot 2025-03-28 123815](https://github.com/user-attachments/assets/00a09ca2-c40f-493f-8bab-3ea562c03213)
 
 
-![Screenshot 2025-03-28 123831](https://github.com/user-attachments/assets/2c98c677-db70-406f-b436-1d3729f51791)
-
+![Screenshot 2025-04-27 103315](https://github.com/user-attachments/assets/e53e184e-7bcd-49f1-9dbe-27ef04fb87c2)
 
 
 
