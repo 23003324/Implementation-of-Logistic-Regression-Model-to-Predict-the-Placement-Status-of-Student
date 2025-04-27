@@ -87,7 +87,7 @@ lr.predict([[1,80,1,9,1,1,90,1,0,85,1,85]])
 ### Value of y
 ![Screenshot 2025-03-28 123801](https://github.com/user-attachments/assets/9d393d35-b6dd-423e-801a-9d671f836402)
 
-### 
+### y_pred
 ![Screenshot 2025-03-28 123815](https://github.com/user-attachments/assets/00a09ca2-c40f-493f-8bab-3ea562c03213)
 
 
