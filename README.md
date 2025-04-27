@@ -8,11 +8,33 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import necessary libraries (pandas, LabelEncoder, train_test_split, etc.).
-2. Load the dataset using pd.read_csv().
-3. Create a copy of the dataset and drop unnecessary columns (sl_no, salary).
-4. Check for missing and duplicate values using isnull().sum() and duplicated().sum().
-5. Encode categorical variables using LabelEncoder() to convert them into numerical values. 
+1.Load the Dataset
+
+2.Create a Copy of the Original Data
+
+3.Drop Irrelevant Columns (sl_no, salary)
+
+4.Check for Missing Values
+
+5.Check for Duplicate Rows
+
+6.Encode Categorical Features using Label Encoding
+
+7.Split Data into Features (X) and Target (y)
+
+8.Split Data into Training and Testing Sets
+
+9.Initialize and Train Logistic Regression Model
+
+10.Make Predictions on Test Set
+
+11.Evaluate Model using Accuracy Score
+
+12.Generate and Display Confusion Matrix
+
+13.Generate and Display Classification Report
+
+14.Make Prediction on a New Sample Input 
 
 ## Program:
 ```
