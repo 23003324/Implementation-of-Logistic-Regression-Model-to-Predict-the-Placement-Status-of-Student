@@ -51,6 +51,17 @@ pf1=pf1.drop(['sl_no','salary'],axis=1)
 pf1.head()
 pf1.isnull().sum()
 pf1.duplicated().sum()
+from sklearn.preprocessing import LabelEncoder
+le=LabelEncoder()
+pf1["gender"]=le.fit_transform(pf1["gender"])
+pf1["ssc_b"]=le.fit_transform(pf1["ssc_b"])
+pf1["hsc_b"]=le.fit_transform(pf1["hsc_b"])
+pf1["hsc_s"]=le.fit_transform(pf1["hsc_s"])
+pf1["degree_t"]=le.fit_transform(pf1["degree_t"])
+pf1["workex"]=le.fit_transform(pf1["workex"])
+pf1["specialisation"]=le.fit_transform(pf1["specialisation"])
+pf1["status"]=le.fit_transform(pf1["status"])
+pf1
 x=pf1.iloc[:,:-1]
 x
 y=pf1["status"]
